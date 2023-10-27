@@ -689,7 +689,7 @@ a {
     /* padding-left: 80px; */
 }
 
-.paragraf {
+.para {
     text-align: center;
     margin-bottom: 16px;
     color: #FFF;
@@ -845,12 +845,13 @@ a {
 
     .team-list {
         display: flex;
-        gap: 72px;
+        gap: 24px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .team-item {
+        margin-bottom: 64px;
         background-color: #FFFFFF;
         border-radius: 0px 0px 4px 4px;
         background: var(--WHITE, #FFF);
@@ -1029,7 +1030,7 @@ a {
         display: flex;
         justify-content: space-between;
     }
-.
+
     .footer-logo {
         justify-content: start;
         display: inline-block;
@@ -1047,9 +1048,17 @@ a {
         margin-bottom: 112px;
     }
 
-    .footer-sabtitle {}
+    .footer-sabtitle {
+        display: block;
+    }
 
     .social-media {}
+    .para {
+        margin-bottom: 16px;
+        color: #FFF;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
 
 }
 
@@ -1292,11 +1301,11 @@ a {
         padding: 100px 0;
     }
 
-    .footer-footer {}
 
     .footer-footer {
         display: flex;
-        align-items: baseline
+        align-items: baseline;
+       
     }
 
     .wrapper {
@@ -1333,6 +1342,7 @@ a {
     .social-media {}
 
     .footer-sabtitle {
+        display: block;
         line-height: 1.5;
         letter-spacing: 0.02em;
         margin-bottom: 16px;
@@ -1375,7 +1385,7 @@ a {
         padding-left: 80px;
     }
 
-    .paragraf {
+    .para {
         margin-bottom: 16px;
         color: #FFF;
         line-height: 1.5;
