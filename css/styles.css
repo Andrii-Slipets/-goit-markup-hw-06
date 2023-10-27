@@ -1026,9 +1026,13 @@ a {
         padding: 96px 0;
     }
 
-    .footer-footer {
+    .wrap {
         display: flex;
         justify-content: space-between;
+    }
+
+    .footer-footer {
+   
     }
 
     .footer-logo {
@@ -1053,6 +1057,7 @@ a {
     }
 
     .social-media {}
+
     .para {
         margin-bottom: 16px;
         color: #FFF;
@@ -1305,7 +1310,7 @@ a {
     .footer-footer {
         display: flex;
         align-items: baseline;
-       
+
     }
 
     .wrapper {
@@ -1386,6 +1391,7 @@ a {
     }
 
     .para {
+        text-align: left;
         margin-bottom: 16px;
         color: #FFF;
         line-height: 1.5;
